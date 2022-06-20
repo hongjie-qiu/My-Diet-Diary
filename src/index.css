@@ -1,0 +1,523 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400&display=swap');
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+
+/* Overall Body Styling*/
+body {
+    font-family: Mulish, Arial, Helvetica, sans-serif;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+/* Add Food To Database Styling */
+.error-message {
+    color: red;
+}
+
+/* Navbar Styling*/
+.navbar {
+    padding: 20px;
+    font-size: 18px;
+}
+
+.navbar .navbar-brand {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.navbar .name {
+    font-weight: 600;
+}
+
+.navbar .material-icons {
+    color: rgb(235, 140, 156);
+}
+
+span {
+    position: relative;
+    top: 5px;
+}
+
+.navbar-nav .nav-link.active {
+    font-weight: bold;
+}
+
+/* Introduction & Header Styling */
+.pageHeader {
+    display: none;
+}
+
+.intro {
+    padding: 5rem;
+}
+
+header div .flex-item-card-intro {
+    color: white;
+    padding: 7%;
+}
+
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.3)), url('./img/balanced_diet2.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.greetings {
+    text-shadow: 0 0 15px black;
+}
+
+/* Nav Cards Styling */
+.flex-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-item-card {
+    width: 33.3%;
+    background-color: #F3FFF3;
+    margin: 0.3rem;
+    border-radius: 10px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3);
+    padding: 5.5%;
+}
+
+.padding-nav-cards {
+    padding: 2em;
+}
+
+.margin-card-title {
+    margin: 0.2em;
+}
+
+.flex-item-card .material-icons.md-48 {
+    font-size: 60px;
+    color: #67ab3a;
+}
+
+.flex-item-card .navlink {
+    text-decoration: none;
+    font-size: 35px;
+    font-weight: bold;
+    color: #67ab3a;
+}
+
+/* form styling */
+form select {
+    width: 100%;
+    padding: 5px 10px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+form button {
+    margin-top: 20px;
+}
+
+.form-inline {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+footer {
+    bottom: 0;
+    padding: 20px;
+}
+
+/* About Page styling */
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+.about-member-img {
+    width: 100%;
+}
+
+.about-p {
+    line-height: 2em;
+    font-size: 23px;
+    font-weight: 600;
+}
+
+.about-section {
+    padding: 5%;
+    text-align: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.3)), url('./img/about-bg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+
+.about-section h1 {
+    font-weight: bold;
+    padding-bottom: 50px;
+}
+
+.feature-section .card {
+    text-align: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.3)), url('./img/about-bg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 1rem;
+    border-radius: 50px;
+    color: white;
+}
+
+.feature-section .column {
+    width: 33.3%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+.feature-section h2 {
+    padding-top: 30px;
+    padding-bottom: 10px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.feature-section p {
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 2rem;
+}
+
+.team-section .column {
+    width: 25%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+}
+
+.team-section h2 {
+    text-align: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.3)), url('./img/about-bg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 1rem;
+    border-radius: 20px;
+    color: white;
+    padding: 2%;
+    font-weight: bold;
+    text-align: center;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 8px;
+    padding: 10px;
+}
+
+.column .container {
+    padding: 0 16px;
+}
+
+.container::after,
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.title {
+    color: grey;
+}
+
+.flex-container-intro {
+    display: flex;
+}
+
+.subsection-1 h1,
+.subsection-2 h1,
+.subsection-3 h1 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.3)), url('./img/balanced_diet2.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-size: 50px;
+    padding: 5%;
+    color: white;
+    text-shadow: 0 0 15px black;
+}
+
+/* BMI calculator styling */
+
+.flex-container-BMI {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+}
+
+.flex-item-card-BMI {
+    width: 80%;
+    background-color: white;
+    margin: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.26);
+    padding: 4%;
+}
+
+.margin-BMI-form {
+    margin-top: 0.5em;
+}
+
+.margin-BMI-form-2 {
+    margin-top: 1em;
+}
+
+.subsection-1 table {
+    text-align: center;
+    vertical-align: middle;
+}
+
+/* Styling for all buttons */
+.subsection-1 button,
+.subsection-2 button,
+.subsection-3 button,
+.flex-item-card-BMI button,
+.flex-item-card-BMI button:disabled{
+    background-color: #93C572;
+    border-color: #93C572;
+    color: white;
+    text-align: center;
+}
+
+/* Make Diet Plan Styling */
+
+.flex-container-make {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+}
+
+.flex-item-card-make {
+    width: fit-content;
+    height: fit-content;
+    background-color: white;
+    margin: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.26);
+    padding: 3%;
+}
+
+.subsection-2 .datepicker {
+    width: auto;
+}
+
+.subsection-2 ul li {
+    list-style-type: none;
+    font-weight: 600;
+    padding: 3%;
+    margin-right: 10%;
+}
+
+.subsection-2 p {
+    font-weight: 600;
+    padding: 3%;
+}
+
+.subsection-2 .foodtable table {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.subsection-2 .addFood {
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+/* View Plan Styling */
+
+.flex-container-view {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+}
+
+.flex-item-card-view {
+    width: fit-content;
+    height: fit-content;
+    background-color: white;
+    margin: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.26);
+    padding: 3%;
+}
+
+.subsection-3 .datepicker {
+    width: auto;
+}
+
+.subsection-3 label {
+    font-weight: 600;
+    padding: 3%;
+}
+
+.subsection-3 .foodtable table {
+    text-align: center;
+    vertical-align: middle;
+}
+
+/* Media Control*/
+@media (max-width: 700px) {
+    .intro {
+        padding: 7rem;
+    }
+
+    .flex-item-card-intro h1 {
+        font-size: 40px;
+    }
+
+    .flex-item-card-intro h2 {
+        font-size: 30px;
+    }
+
+    .flex-item-card {
+        width: 100%;
+        padding: 10%;
+    }
+
+    .flex-container {
+        flex-flow: column;
+    }
+
+    .flex-item-card .material-icons.md-48 {
+        font-size: 40px;
+    }
+
+    .flex-item-card .navlink {
+        font-size: 30px;
+    }
+
+    .subsection-1 h1,
+    .subsection-2 h1,
+    .subsection-3 h1 {
+        padding: 10%;
+        font-size: 32px;
+    }
+
+    .flex-container-BMI {
+        padding-left: 10%;
+        flex-direction: column;
+    }
+
+    .subsection-2 .flex-container-make {
+        flex-direction: column;
+    }
+
+    .subsection-3 .flex-container-view {
+        flex-direction: column;
+    }
+
+    .subsection-2 ul li {
+        font-size: 15px;
+    }
+
+    .subsection-3 label {
+        font-size: 15px;
+    }
+
+    .subsection-2 .foodtable table,
+    .subsection-2 .foodtable button,
+    .subsection-3 .foodtable table,
+    .subsection-3 .foodtable button {
+        font-size: 12px;
+        display: block;
+    }
+
+    .category {
+        display: none;
+    }
+
+    .about-p {
+        font-size: 18px;
+    }
+
+    .team-section .column,
+    .feature-section .column {
+        width: 100%;
+        display: block;
+    }
+}
+
+@media (min-width: 700px) and (max-width: 1125px) {
+    .intro {
+        padding: 6rem;
+    }
+
+    .flex-item-card-intro h1 {
+        font-size: 50px;
+    }
+
+    .flex-item-card-intro h2 {
+        font-size: 40px;
+    }
+
+    .flex-item-card .navlink {
+        font-size: 25px;
+    }
+
+    .team-section .column {
+        width: 25%;
+        margin-bottom: 16px;
+        padding: 0 8px;
+    }
+
+    .subsection-1 h1,
+    .subsection-2 h1,
+    .subsection-3 h1 {
+        font-size: 40px;
+    }
+
+    .subsection-1 .flex-container-BMI {
+        padding-left: 15%;
+        flex-direction: column;
+    }
+
+    .subsection-2 .foodtable table,
+    .subsection-2 .foodtable button {
+        font-size: 12px;
+    }
+
+    .subsection-2 .flex-container-make {
+        flex-direction: column;
+    }
+
+    .subsection-3 .flex-container-view {
+        flex-direction: column;
+    }
+
+    .container h2 {
+        font-size: 25px;
+    }
+
+    .title {
+        font-size: 15px;
+    }
+}
+
+@media screen and (min-width: 1125px) {
+
+    .flex-item-card-intro h1 {
+        font-size: 60px;
+    }
+
+    .flex-item-card-intro h2 {
+        font-size: 40px;
+    }
+}
