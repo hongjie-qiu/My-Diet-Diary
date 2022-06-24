@@ -3,7 +3,7 @@ A full-featured interactive web application in HTML, CSS and React JS that keeps
 
 Link to the hosted website: https://my-diet-diary.web.app
 
-### Descrption 
+## Descrption 
 MyDietDiary is our team project for the course INFO 340 - Web Programming.  
 Our group decided to focus on tracking BMI data and diet plans because we noticed that people's eating  
 habits in modern days lack specific categories of food, with mostly only fat, starch, and sugar for a meal.  
@@ -12,8 +12,7 @@ We hope MyDietDiary will help users achieve a healthier lifestyle by monitoring 
 and tracking daily food intake.  
 
 <br>
-
-### Features
+## Features
 #### Calculate & Track BMI  
 You can caculate your BMI by providing your weight and height,  
 And your BMI will be recorded and shown in a trending chart!  
