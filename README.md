@@ -3,4 +3,4 @@ A full-featured interactive web application in HTML, CSS and React JS that keeps
 
 Link to the hosted website: https://my-diet-diary.web.app
 
-### Credit: INFO 340 Group A6
+##### Credit: INFO 340 Group A6
