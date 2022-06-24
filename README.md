@@ -24,5 +24,6 @@ You can view your added food items based on selected date.
 All information regarding the food items will be displayed.  
 If you have accidently added wrong items, you have the option to remove them from your plan!  
 
+<br>
 
 ##### Credit: INFO 340 Group A6
