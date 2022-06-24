@@ -11,8 +11,6 @@ Busy schedules also lead to people eating on the run, which results in poor nutr
 We hope MyDietDiary will help users achieve a healthier lifestyle by monitoring BMI results  
 and tracking daily food intake.  
 
-<br>
-
 ## Features
 #### Calculate & Track BMI  
 You can caculate your BMI by providing your weight and height,  
