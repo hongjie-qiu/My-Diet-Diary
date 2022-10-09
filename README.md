@@ -26,6 +26,4 @@ If you have accidently added wrong items, you have the option to remove them fro
 
 <br>
 
-:bowtie:
-
 ##### Credit: INFO 340 Group A6
